@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgClub"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/background"
+            android:contentDescription="@string/club_logo"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rayo Vallecano"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:text="Rayo Vallecano didirikan pada 29 Mei 1924 di kota kelahiran Prudencia Priego, istri presiden pertama klub Julián Huerta. Terinspirasi oleh klub Argentina River Plate, pada 1949 mereka menambahkan garis diagonal merah pada seragam setelah menjalin kerja sama dengan Atlético Madrid, dan di tahun yang sama untuk pertama kalinya mencapai Tercera División. Sepanjang 1980-an dan 1990-an, Rayo dikenal sebagai salah satu \yo-yo club\ Spanyol karena sering naik turun antara La Liga dan Segunda División, berada di bawah bayang-bayang Real Madrid dan Atlético Madrid. Musim 1983–84 menjadi salah satu yang terburuk karena terdegradasi ke Segunda División B, sementara tahun 1989 dikenang karena meninggalnya Laurie Cunningham akibat kecelakaan setelah semusim membela Rayo. Setelah promosi ke La Liga pada 1999, musim terbaik klub datang di 2000–01 ketika mencapai perempat final Piala UEFA lewat jalur fair play. Namun, pada 2003 dan 2004, mereka mengalami dua degradasi beruntun. Di bawah asuhan Míchel, Rayo akhirnya kembali ke Segunda División pada 2008 dan promosi lagi ke La Liga pada 2011 meskipun menghadapi krisis keuangan. Sejak itu, klub sempat stabil di papan tengah, lalu terdegradasi lagi pada 2019 sebelum kembali promosi melalui playoff pada 2021. Rayo berhasil bertahan di La Liga hingga kini, bahkan pada musim 2024–25 finis di posisi kedelapan dan lolos ke kompetisi Eropa untuk pertama kalinya dalam 24 tahun. Dikenal dengan semangat juang tinggi dan identitas kuat dari kawasan Vallecas, Rayo Vallecano tetap menjadi simbol klub kecil yang mampu bersaing di antara raksasa sepak bola Spanyol." />
+
+    </LinearLayout>
+</ScrollView>
